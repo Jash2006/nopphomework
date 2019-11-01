@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a354fa74-7a8b-4488-ba8b-3ed9249a9450" name="Default Changelist" comment="" />
+    <list default="true" id="a354fa74-7a8b-4488-ba8b-3ed9249a9450" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/BrowserDrivers/chromedriver.exe" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/BrowserDrivers/chromedriver.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MavenHomeWork.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MavenHomeWork.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MavenHomeWork.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MavenHomeWork.class" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +53,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MavenHomeWork">
+  <component name="RunManager" selected="JUnit.MavenHomeWork.userRegistrationSuccessfully">
     <configuration name="MavenHomeWork" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="nopphomework" />
       <option name="PACKAGE_NAME" value="" />
@@ -58,11 +63,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MavenHomeWork.referProductToFriend" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MavenHomeWork.checkAddToCartButtonIsPresent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="nopphomework" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="MavenHomeWork" />
-      <option name="METHOD_NAME" value="referProductToFriend" />
+      <option name="METHOD_NAME" value="checkAddToCartButtonIsPresent" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -88,11 +93,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MavenHomeWork.userNavigatetoCameraPhoto" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MavenHomeWork.userRegistrationSuccessfully" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="nopphomework" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="MavenHomeWork" />
-      <option name="METHOD_NAME" value="userNavigatetoCameraPhoto" />
+      <option name="METHOD_NAME" value="userRegistrationSuccessfully" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -100,11 +105,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MavenHomeWork.userRegistrationSuccessfully" />
+        <item itemvalue="JUnit.MavenHomeWork.checkAddToCartButtonIsPresent" />
+        <item itemvalue="JUnit.MavenHomeWork.userFilterJewelryByPrice" />
         <item itemvalue="JUnit.MavenHomeWork" />
         <item itemvalue="JUnit.MavenHomeWork.userAbleToAddItemsIntoBasket" />
-        <item itemvalue="JUnit.MavenHomeWork.referProductToFriend" />
-        <item itemvalue="JUnit.MavenHomeWork.userNavigatetoCameraPhoto" />
-        <item itemvalue="JUnit.MavenHomeWork.userFilterJewelryByPrice" />
       </list>
     </recent_temporary>
   </component>
@@ -126,10 +131,23 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/MavenHomeWork.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

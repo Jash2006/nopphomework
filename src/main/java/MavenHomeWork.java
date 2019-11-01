@@ -5,6 +5,7 @@ import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.json.JsonOutput;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -13,6 +14,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Date;
+import java.util.List;
 import java.util.concurrent.TimeUnit;
 
 public class MavenHomeWork {
@@ -35,6 +37,23 @@ public class MavenHomeWork {
         driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
         // to open the website
         driver.get("https://demo.nopcommerce.com/");
+    }
+    @Test
+    public void checkAddToCartButtonIsPresent(){
+        List<WebElement> itemlist = driver.findElements(By.className("item-box"));
+        System.out.println(itemlist.size());
+        int count=0;
+        for (WebElement e: itemlist) {
+
+            if(e.getAttribute("outerHTML").contains("Add to cart")){
+                    count++;
+            }
+            else{
+                System.out.println("NO ADD TO CART BUTTON: "+e.getText());
+            }
+        }
+        System.out.println(count);
+        Assert.assertEquals("Some of the item does not have add to cart button",itemlist.size(),count);
     }
     @Test
     public void userRegistrationSuccessfully(){
@@ -157,6 +176,6 @@ public class MavenHomeWork {
    @After
     public void teardown(){
         // to close the browser
-        driver.close();
+        driver.quit();
     }
 }
